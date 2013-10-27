@@ -1,0 +1,33 @@
+= test-more - Test::More for Ruby
+
+A port of Perl's ubiquitous Test::More TAP testing framework.
+
+= Synopsis
+
+Write files ending with +.t+ under +test/+, like +test/test1.t+:
+
+    #!/usr/bin/env ruby
+
+    $:.unshift "#{Dir.getwd}/lib"
+    require 'test/more'
+    include Test::More
+
+    # plan 'tests', 3
+
+    pass 'Yessss'
+    ok true, 'yup'
+    is 1, '1', 'one'
+
+    done_testing
+
+Then run the tests with the +prove+ utility like this:
+
+    prove -v test/
+
+You can test this gem with:
+
+    rake test
+
+= Copyright
+
+Copyright (c) 2013 Ingy döt Net. See LICENSE for further details.
