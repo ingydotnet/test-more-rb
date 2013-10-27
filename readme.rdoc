@@ -2,6 +2,8 @@
 
 A port of Perl's ubiquitous Test::More TAP testing framework.
 
+{<img src="https://travis-ci.org/ingydotnet/test-more-rb.png?branch=master" alt="Build Status" />}[https://travis-ci.org/ingydotnet/test-more-rb]
+
 = Synopsis
 
 Write files ending with +.t+ under +test/+, like +test/test1.t+:
