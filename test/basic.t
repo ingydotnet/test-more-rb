@@ -10,4 +10,4 @@ pass 'Yessss'
 ok true, 'yup'
 is 1, '1', 'one'
 
-done_testing
+done_testing 3
