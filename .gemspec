@@ -12,7 +12,7 @@ GemSpec = Gem::Specification.new do |gem|
   gem.description = <<-'.'
 Port of Perl's Test::More TAP test framework.
 .
-  gem.homepage = 'http://acmeism.org'
+  gem.homepage = 'https://github.com/ingydotnet/test-more-rb'
 
   gem.files = `git ls-files`.lines.map{|l|l.chomp}
 end
